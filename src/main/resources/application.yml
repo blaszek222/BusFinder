@@ -1,0 +1,9 @@
+spring:
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/BFDatabase
+        username: postgres
+        password: root
+
+server:
+    port: 8081
