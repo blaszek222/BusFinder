@@ -4,6 +4,10 @@ spring:
         url: jdbc:postgresql://localhost:5432/BFDatabase
         username: postgres
         password: root
-
+    cors:
+        allowOrigin: http://localhost:8082
+        allowCredentials: true
+        allowMethods: POST, GET, OPTIONS, DELETE, PUT, PATCH
+        allowHeaders: Origin,Content-Type, Accept, Authorization
 server:
     port: 8081
