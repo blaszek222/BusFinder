@@ -5,11 +5,16 @@
  */
 package bf.core.entity;
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.validation.constraints.NotNull;
 
 
@@ -24,7 +29,17 @@ public class BusStop {
     @Column(name = "bus_stop_id")
     private Integer id;
     @NotNull
-    private String street;    
+    private String name;  
+    
+    @ManyToMany
+    @JoinTable(name = "bus_line_bus_stop",
+            joinColumns = @JoinColumn(name = "bus_stop"),
+            inverseJoinColumns = @JoinColumn(name = "bus_line"))
+    private List<BusLine> busLines;  
+    
+    public BusStop() {
+        busLines = new ArrayList<>();
+    }     
 
     public Integer getId() {
         return id;
@@ -32,14 +47,22 @@ public class BusStop {
 
     public void setId(Integer id) {
         this.id = id;
+    } 
+
+    public String getName() {
+        return name;
     }
 
-    public String getStreet() {
-        return street;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
+    public List<BusLine> getBusLines() {
+        return busLines;
+    }
+
+    public void setBusLines(List<BusLine> busLines) {
+        this.busLines = busLines;
     }
 }
     

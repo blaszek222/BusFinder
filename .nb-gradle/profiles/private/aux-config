@@ -5,20 +5,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/repository/BusStopRepository.java</file>
         <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/entity/BusStop.java</file>
+        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/entity/BusLineConnection.java</file>
+        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/entity/BusStopConnection.java</file>
         <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/resources/application.yml</file>
-        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/Application.java</file>
-        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/build.gradle</file>
+        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/resources/sql_scripts/tables.sql</file>
+        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/resources/sql_scripts/schema.sql</file>
+        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/entity/BusLine.java</file>
       </group>
     </open-files>
+    <editor-bookmarks lastBookmarkId="0" xmlns="http://www.netbeans.org/ns/editor-bookmarks/2"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/repository/BusStopRepository.java</file>
         <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/entity/BusStop.java</file>
-        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/resources/application.yml</file>
-        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/java/bf/core/Application.java</file>
-        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/build.gradle</file>
+        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/resources/sql_scripts/tables.sql</file>
+        <file>file:/C:/Users/Tutu/Documents/NetBeansProjects/BF-core/src/main/resources/sql_scripts/schema.sql</file>
       </group>
     </open-files>
   </auxiliary>

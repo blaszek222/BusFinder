@@ -1,7 +1,7 @@
 spring:
 
     datasource:
-        url: jdbc:postgresql://localhost:5432/BFDatabase
+        url: jdbc:postgresql://localhost:5432/bfdatabase
         username: postgres
         password: root
     cors:
