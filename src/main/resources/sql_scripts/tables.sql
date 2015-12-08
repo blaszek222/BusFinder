@@ -1,7 +1,9 @@
 DROP TABLE IF EXISTS bus_stop CASCADE;
 CREATE TABLE bus_stop (
 	bus_stop_id SERIAL PRIMARY KEY,
-	name VARCHAR(2048) NOT NULL
+	name VARCHAR(2048) NOT NULL,
+        latitude DECIMAL(8,5) NOT NULL,
+        longitude DECIMAL(8,5) NOT NULL
 );
 
 DROP TABLE IF EXISTS bus_line CASCADE;

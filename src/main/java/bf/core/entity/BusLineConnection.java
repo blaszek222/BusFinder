@@ -35,7 +35,7 @@ public class BusLineConnection {
     private BusStopConnection busStopConnection;     
     
     @NotNull
-    private Integer bus_line_order;
+    private Integer busLineOrder;
 
     public BusLineConnection() {
     }
@@ -64,13 +64,15 @@ public class BusLineConnection {
         this.busStopConnection = busStopConnection;
     }
 
-    public Integer getBus_line_order() {
-        return bus_line_order;
+    public Integer getBusLineOrder() {
+        return busLineOrder;
     }
 
-    public void setBus_line_order(Integer bus_line_order) {
-        this.bus_line_order = bus_line_order;
+    public void setBusLineOrder(Integer busLineOrder) {
+        this.busLineOrder = busLineOrder;
     }
+
+
     
     
 }

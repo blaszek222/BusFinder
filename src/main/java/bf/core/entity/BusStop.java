@@ -30,6 +30,10 @@ public class BusStop {
     private Integer id;
     @NotNull
     private String name;  
+    @NotNull
+    private float latitude;
+    @NotNull
+    private float longitude;
     
     @ManyToMany
     @JoinTable(name = "bus_line_bus_stop",
@@ -63,6 +67,22 @@ public class BusStop {
 
     public void setBusLines(List<BusLine> busLines) {
         this.busLines = busLines;
+    }
+
+    public float getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(float latitude) {
+        this.latitude = latitude;
+    }
+
+    public float getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(float longitude) {
+        this.longitude = longitude;
     }
 }
     
