@@ -43,5 +43,6 @@ CREATE TABLE timetable (
 	timetable_id SERIAL PRIMARY KEY,
 	bus_line INTEGER REFERENCES bus_line(bus_line_id),
 	bus_stop INTEGER REFERENCES bus_stop(bus_stop_id),
-        time TIME NOT NULL
+        time_hour INTEGER,
+        time_minute INTEGER
 );

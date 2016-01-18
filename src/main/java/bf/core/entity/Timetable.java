@@ -36,7 +36,10 @@ public class Timetable {
     private BusStop busStop;
     
     @NotNull
-    private Time time;
+    private Integer time_hour;
+    
+    @NotNull
+    private Integer time_minute;    
 
     public Timetable() {
     }
@@ -65,12 +68,20 @@ public class Timetable {
         this.busStop = busStop;
     }
 
-    public Time getTime() {
-        return time;
+    public Integer getTime_hour() {
+        return time_hour;
     }
 
-    public void setTime(Time time) {
-        this.time = time;
+    public void setTime_hour(Integer time_hour) {
+        this.time_hour = time_hour;
+    }
+
+    public Integer getTime_minute() {
+        return time_minute;
+    }
+
+    public void setTime_minute(Integer time_minute) {
+        this.time_minute = time_minute;
     }
     
 }
